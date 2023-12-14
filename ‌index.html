@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descripción de tu sitio web">
+
+    <title>Panaderia y Pasteleria</title>
+    <link rel="stylesheet" href="../ahorasi/homepage.css">
+
+      <!-- Agrega esto en la sección head -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+      <!-- Incluir Leaflet desde su CDN -->
+         <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+         <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+</head>
+<body>
+
+
+    <header id="inicio">
+        <div class="header-content">
+
+        <h1>Panaderia y Pasteleria</h1>
+        <nav>
+            <ul>
+                <li><a href="#seccion1">Nosotros</a></li>
+                <li><a href="#seccion2">Productos</a></li>
+                <li><a href="#seccion2">Promociones</a></li>
+                <li><a href="#seccion2">Sucursales</a></li>
+                <li><a href="#seccion2">Contactanos</a></li>
+
+                <!-- Agrega más elementos de menú según sea necesario -->
+           </ul>
+        </nav>
+        </div>
+                
+
+            
+        
+    </header>
+
+
+    <section class="video-section">
+            <video autoplay muted loop id="bgVideo">
+                <source src="../ahorasi/videos/fondo.mp4" type="video/mp4">
+                 Tu navegador no soporta el tag de video.
+            </video>
+    </section>
+
+
+
+
+
+    <section id="seccion1">
+        <h2>Productos Destacados</h2>
+
+         <div class="carousel-container">
+          <div class="slick-carousel">
+
+            <!-- Producto 1 -->
+                <div class="producto" id="productoyprecio">
+                    <a href="producto.html?id=producto-1&nombre=Nombre%20del%20Producto%201&imagen=../ahorasi/imagenes/conchas.jpg&precio=20.00">
+                        <img src="../ahorasi/imagenes/conchas.jpg" alt="Producto 1">
+                        <h3>Conchitas</h3>
+                        <p>Precio: $20.00</p>
+                    </a>
+                </div>
+
+                <!-- Producto 2 -->
+                <div class="producto">
+                    <a href="producto.html?id=producto-2&nombre=Nombre%20del%20Producto%202&imagen=../ahorasi/imagenes/cuernito.png&precio=25.00">
+                        <img src="../ahorasi/imagenes/cuernito.png" alt="Producto 2">
+                        <h3>Cuernitos</h3>
+                        <p>Precio: $25.00</p>
+                    </a>
+                </div>
+
+                <!-- Producto 3 -->
+                <div class="producto">
+                    <a href="producto.html?id=producto-3&nombre=Nombre%20del%20Producto%203&imagen=../ahorasi/imagenes/empanada.jpg&precio=25.00">
+                        <img src="../ahorasi/imagenes/empanada.jpg" alt="Producto 3">
+                        <h3>Empanadas</h3>
+                        <p>Precio: $25.00</p>
+                    </a>
+                </div>
+
+                <!-- Producto 4 -->
+                <div class="producto">
+                    <a href="producto.html?id=producto-4&nombre=Nombre%20del%20Producto%204&imagen=../ahorasi/imagenes/muerto.jpg&precio=25.00">
+                        <img src="../ahorasi/imagenes/muerto.jpg" alt="Producto 4">
+                        <h3>Pan de muerto</h3>
+                        <p>Precio: $25.00</p>
+                    </a>
+                </div>
+
+                <!-- Producto 5 -->
+                <div class="producto">
+                    <a href="producto.html?id=producto-5&nombre=Nombre%20del%20Producto%205&imagen=../ahorasi/imagenes/rosca.jpg&precio=25.00">
+                        <img src="../ahorasi/imagenes/rosca.jpg" alt="Producto 5">
+                        <h3>Mini rosca</h3>
+                        <p>Precio: $25.00</p>
+                    </a>
+                </div>
+
+                <!-- Producto 6 -->
+                <div class="producto">
+                    <a href="producto.html?id=producto-6&nombre=Nombre%20del%20Producto%206&imagen=../ahorasi/imagenes/dona.jpg&precio=25.00">
+                        <img src="../ahorasi/imagenes/dona.jpg" alt="Producto 6">
+                        <h3>Dona</h3>
+                        <p>Precio: $25.00</p>
+                    </a>
+                </div>
+
+
+            <!-- Agrega más divs según sea necesario -->
+        </div>
+
+
+
+    </section>
+
+      <!-- Agrega esto después de la sección de los productos destacados -->
+
+      <section id="seccion1_1">
+          <h2 >Nueva seccion</h2>
+            <img class="seccionfoto" src="../ahorasi/imagenes/seccionN.jpg" alt="seccionN">
+
+      </section>
+
+      <section id="seccion2">
+          <h2>Ubicación</h2>
+          <div id="map" style="height: 400px; width: 64%;"></div>
+      </section>
+
+
+
+    <footer>
+        <p>Derechos de autor © 2023 Tu Nombre</p>
+    </footer>
+      <!-- Agrega esto antes de cerrar la etiqueta body -->
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+        <!-- Agrega esto después de incluir jQuery y Slick Carousel -->
+          <script src="../ahorasi/homepage.js"></script>
+
+<!-- Agrega esto antes de cerrar la etiqueta body -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+/* pancs.css */
+
+@media (max-width: 600px) {
+    /* Estilos para pantallas pequeñas (por ejemplo, móviles) */
+    body {
+        font-size: 14px; /* Ajusta el tamaño de fuente u otros estilos según sea necesario */
+    }
+    /* Agrega más reglas de estilo según sea necesario para dispositivos móviles */
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+
+
+header {
+    background: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    padding: 20px 10px; /* Ajuste de espaciado */
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    height: 2%;
+        display: flex; /* Alinea los elementos horizontalmente */
+    justify-content: space-between; /* Alinea los elementos a los extremos */
+    align-items: center; /* Centra verticalmente los elementos */
+
+}
+
+header h1 {
+    float: left;
+    margin: 0; /* Elimina el margen superior del título */
+
+}
+
+h1 {
+    margin-top: 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Color del texto del menú */
+    font-weight: bold;
+}
+
+.header-content {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+h2 {
+    font-style: italic;
+    text-align: center;
+    color: #8B572A;
+}
+
+h3{
+}
+
+p{
+    text-align: center;
+    color: #8B572A;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.video-section {
+    position: relative;
+    height: 120vh;
+    overflow: hidden;
+}
+
+#bgVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#productoyprecio {
+    text-align: center;
+    color: #8B572A;
+
+}
+
+/* Agrega estas reglas de estilo para ajustar el tamaño de las imágenes en el carrusel */
+
+.slick-carousel img {
+    width: 88%; /* Ajusta el ancho máximo según sea necesario */
+    height: 300px; /* Ajusta la altura máxima según sea necesario */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    border-radius: 30px; /* Ajusta el valor según la cantidad de redondeo deseada */
+}
+
+/* En homepage.css */
+.carousel-container {
+    position: relative;
+    margin-top: 20px; /* Agrega margen superior según sea necesario */
+}
+
+/* En homepage.css */
+#seccion1 {
+    max-width: 96%; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+}
+
+.seccion1_1 {
+    width: 100%; /* Ajusta el ancho máximo según sea necesario */
+    margin-left: 10px;
+    border-radius: 30px;
+}
+
+
+#seccion2 {
+    max-width: 800px; /* Ajusta el ancho máximo según sea necesario */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    margin-bottom: 20px;
+}
+
+#map {
+    border-radius: 30px; /* Ajusta el valor según la cantidad de redondeo deseada */
+    margin-left: 2%;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
